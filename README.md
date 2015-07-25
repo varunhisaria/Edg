@@ -1,2 +1,2 @@
 # Edg
-Official Windows Phone App of Edge 2015
+Official Windows Phone App for Edge 2015
