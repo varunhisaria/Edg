@@ -1,0 +1,132 @@
+﻿<Page
+    x:Class="Edg.CategoriesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Edg"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        
+        <Style TargetType="TextBlock" x:Key="MyTextBlock">
+            <Setter Property="FontSize" Value="42"></Setter>
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+        </Style>
+        <Style TargetType="Grid" x:Key="MyGrid">
+            <Setter Property="Background" Value="Black"></Setter>
+            <Setter Property="Height" Value="150"></Setter>
+            <Setter Property="Margin" Value="0,5,0,0"></Setter>
+
+        </Style>
+        <Style TargetType="Image" x:Key="MyImage">
+            <Setter Property="Opacity" Value="0.45"></Setter>
+            <Setter Property="Margin" Value="0,5,0,0"></Setter>
+            <Setter Property="Stretch" Value="UniformToFill"></Setter>
+            <Setter Property="Height" Value="150"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+        </Style>
+        
+    </Page.Resources>
+    
+    <Grid x:Name="LayoutRoot" Margin="0,25,0,0">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <!--<RowDefinition Height="60"/>-->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+
+        <!--<Grid Grid.Row="0" x:Name="Header" Background="#FFD81D24" Margin="0,0,0,0">
+            <HyperlinkButton Content="" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="0,5,0,5" Width="62" NavigateUri="http://geekonix.org">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Logos/gx_mobile.png"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+            <Image Margin="20,0,0,0" HorizontalAlignment="Center" Width="100" Source="Assets/Logos/mobile.png"/>
+            <HyperlinkButton Content="" HorizontalAlignment="Right" VerticalAlignment="Stretch" Margin="0,5,0,5" Width="56" NavigateUri="http://ticollege.ac.in">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/Logos/ti_white.png"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+        </Grid>-->
+
+        <!--TODO: Content should be placed within the following grid-->
+        <ScrollViewer Grid.Row="0" >
+            <StackPanel x:Name="Category" Background="White" Margin="0,0,0,0" >
+                <Grid x:ConnectionId='1' x:Name="ComputeAid" Tag="Compute Aid" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/computeaid.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="COMPUTE AID" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='2' x:Name="CyberCrusade" Tag="Cyber Crusade" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/cybercrusade.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="CYBER CRUSADE" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='3' x:Name="Robotics" Tag="Robotics" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/robotics.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="ROBOTICS" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='4' x:Name="FoodForFun" Tag="Food For Fun" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/foodforfun.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="FOOD FOR FUN" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='5' x:Name="MoneyMatters" Tag="Money Matters" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/moneymatters.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="MONEY MATTERS" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='6' x:Name="Newron" Tag="Newron" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/newron.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="NEWRON" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='7' x:Name="InFocus" Tag="In Focus" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/infocus.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="IN FOCUS" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='8' x:Name="CreateIt" Tag="Create It" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/creative.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="CREATE IT" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='9' x:Name="Innovati" Tag="Innovati" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/innovati.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="INNOVATI" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='10' x:Name="JustLikeThat" Tag="Just Like That" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/justlikethat.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="JUST LIKE THAT" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+
+                <Grid x:ConnectionId='11' x:Name="OnlineEvents" Tag="Online events" Style="{StaticResource MyGrid}"                           >
+                    <Image Source="Assets/Categories/online.jpg" Style="{StaticResource MyImage}"/>
+                    <TextBlock Text="ONLINE EVENTS" Style="{StaticResource MyTextBlock}"/>
+                </Grid>
+            </StackPanel>
+
+            
+            
+        </ScrollViewer>
+
+
+    </Grid>
+</Page>
+

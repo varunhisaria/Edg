@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Sponsors" />
+    <RootPropertyPathName Name="title" />
+    <RootPropertyPathName Name="url" />
+    <RootPropertyPathName Name="Events" />
+    <RootPropertyPathName Name="description" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="BottomAppBar" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
+      <RootProperty Name="EndPoint" />
+      <RootProperty Name="StartPoint" />
+      <RootProperty Name="GradientStops" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
+      <RootProperty Name="Color" />
+      <RootProperty Name="Offset" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="ChildrenTransitions" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Tag" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="Tapped" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Content" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ZoomMode" />
+      <RootProperty Name="HorizontalScrollBarVisibility" />
+      <RootProperty Name="HorizontalScrollMode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="Tapped" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Edg.AboutUs" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Fill" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="ImageSource" />
+    </RootType>
+    <RootType FullName="Edg.AppCreatorPage" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Panel">
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Edg.CategoriesPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="Height" />
+      <RootProperty Name="PrimaryCommands" />
+      <RootProperty Name="SecondaryCommands" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Icon" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.BitmapIcon">
+      <RootProperty Name="UriSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressRing">
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Edg.MainPage" />
+    <RootType FullName="Edg.SpecialEvents" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
+      <RootProperty Name="Title" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
+      <RootProperty Name="Header" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="Name" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Edg.SponsorsPage" />
+    <RootType FullName="Edg.StarPage" />
+    <RootType FullName="Edg.TestPage" />
+    <RootType FullName="Edg.WorkshopsPage" />
+  </Roots.RootTypes>
+</Roots>

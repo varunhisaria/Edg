@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VARUN-PC</Machine>
+    <WindowsUser>Varun</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>a404d0c8-4725-42cf-a038-8e05590c29ab</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\Edg.exe">
+      <PackagePath>Edg.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\computeaid.jpg">
+      <PackagePath>Assets\Categories\computeaid.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\creative.jpg">
+      <PackagePath>Assets\Categories\creative.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\cybercrusade.jpg">
+      <PackagePath>Assets\Categories\cybercrusade.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\foodforfun.jpg">
+      <PackagePath>Assets\Categories\foodforfun.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\infocus.jpg">
+      <PackagePath>Assets\Categories\infocus.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\innovati.jpg">
+      <PackagePath>Assets\Categories\innovati.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\justlikethat.jpg">
+      <PackagePath>Assets\Categories\justlikethat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\moneymatters.jpg">
+      <PackagePath>Assets\Categories\moneymatters.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\newron.jpg">
+      <PackagePath>Assets\Categories\newron.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\online.jpg">
+      <PackagePath>Assets\Categories\online.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Categories\robotics.jpg">
+      <PackagePath>Assets\Categories\robotics.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\events.jpg">
+      <PackagePath>Assets\MainPage\events.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\schedule.jpg">
+      <PackagePath>Assets\MainPage\schedule.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\specialEvents.jpg">
+      <PackagePath>Assets\MainPage\specialEvents.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\sponsors.jpg">
+      <PackagePath>Assets\MainPage\sponsors.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\starAttractions.jpg">
+      <PackagePath>Assets\MainPage\starAttractions.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\workshops.jpg">
+      <PackagePath>Assets\MainPage\workshops.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\paintball.jpg">
+      <PackagePath>Assets\paintball.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\palash.jpg">
+      <PackagePath>Assets\palash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\roboworkshop.jpg">
+      <PackagePath>Assets\roboworkshop.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\rohan.jpg">
+      <PackagePath>Assets\rohan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\sponsor2013.jpg">
+      <PackagePath>Assets\sponsor2013.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\sponsor2014.jpg">
+      <PackagePath>Assets\sponsor2014.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\varun.jpg">
+      <PackagePath>Assets\varun.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Icons\facebook.png">
+      <PackagePath>Assets\Icons\facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Icons\twitter.png">
+      <PackagePath>Assets\Icons\twitter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Icons\youtube.png">
+      <PackagePath>Assets\Icons\youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Logos\edge.png">
+      <PackagePath>Assets\Logos\edge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Logos\gx.png">
+      <PackagePath>Assets\Logos\gx.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Logos\gx_mobile.png">
+      <PackagePath>Assets\Logos\gx_mobile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Logos\mobile.png">
+      <PackagePath>Assets\Logos\mobile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Logos\ti.png">
+      <PackagePath>Assets\Logos\ti.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Logos\ti_white.png">
+      <PackagePath>Assets\Logos\ti_white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\aboutus.png">
+      <PackagePath>Assets\MainPage\aboutus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\MainPage\sponsors.png">
+      <PackagePath>Assets\MainPage\sponsors.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\tvf.png">
+      <PackagePath>Assets\tvf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\SponsorInit.txt">
+      <PackagePath>SponsorInit.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\AboutUs.xbf">
+      <PackagePath>AboutUs.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\AppCreatorPage.xbf">
+      <PackagePath>AppCreatorPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\CategoriesPage.xbf">
+      <PackagePath>CategoriesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\SpecialEvents.xbf">
+      <PackagePath>SpecialEvents.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\SponsorsPage.xbf">
+      <PackagePath>SponsorsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\StarPage.xbf">
+      <PackagePath>StarPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\TestPage.xbf">
+      <PackagePath>TestPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\WorkshopsPage.xbf">
+      <PackagePath>WorkshopsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\Edg.xr.xml">
+      <PackagePath>Edg.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Varun\Documents\Visual Studio 2013\Projects\Edg\Edg\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
